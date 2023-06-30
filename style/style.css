@@ -1,0 +1,270 @@
+.nav_list {
+    display: flex;
+}
+
+.nav_item {
+    margin-right: 63px;
+    list-style: none;
+}
+
+.container_header {
+    display: flex;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.nav {
+    margin: auto 0 auto auto;
+}
+
+.header {
+    background-color: #112102;
+}
+
+.nav_link {
+    font-family: 'Anton';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    color: #E4E4E4;
+    text-decoration: none;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.logo_img {
+    padding: 36px 32px;
+}
+
+.logo_text {
+    color: #FFF;
+    font-size: 18px;
+    font-family: 'Oswald';
+    margin: auto 0;
+}
+
+.homessilka {
+    text-decoration: none;
+    color: black;
+}
+
+.container_home {
+    display: flex;
+    max-width: 1200px;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+.home {
+    background: #446A12;
+    padding: 102px 0 152px 0;
+}
+
+.home_tiile {
+    color: #83BD1A;
+    font-size: 72px;
+    font-family: 'Nico Moji';
+}
+
+.home_text {
+    color: #B2D649;
+    font-size: 20px;
+    font-family: 'Playfair Display';
+}
+
+.home_img {
+    width: 549px;
+    height: 453px;
+    flex-shrink: 0;
+}
+
+.home_content {
+    width: 601px;
+}
+
+.home_btn {
+    border-radius: 6px;
+    background: var(--orange, linear-gradient(135deg, #E2A300 0%, #E29500 100%));
+    box-shadow: 0px 2px 13px 0px rgba(226, 158, 0, 0.48);
+    width: 224px;
+    height: 47px;
+    color: #000;
+    font-size: 18px;
+    font-family: 'Playfair Display';
+    border: 0;
+}
+
+.skills_full {
+    background: #446A12;
+    height: 10px;
+}
+
+.skills_done1 {
+    background: #BDD986;
+    width: 65%;
+    height: 10px;
+}
+
+.skills_done2 {
+    background: #BDD986;
+    width: 75%;
+    height: 10px;
+}
+
+.skills_done3 {
+    background: #BDD986;
+    width: 70%;
+    height: 10px;
+}
+
+.about {
+    background: #112102;
+}
+
+.about_content {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 50px auto 0;
+}
+
+.about_titile {
+    margin: 0;
+    color: #E4E4E4;
+    font-size: 48px;
+    font-family: 'Playfair Display';
+    font-weight: 400;
+    text-align: center;
+}
+
+.container_about {
+    padding: 60px 0 40px 0;
+}
+
+.skills_name {
+    color: #E4E4E4;
+    font-size: 30px;
+    font-family: 'Nico Moji';
+    font-weight: 300;
+    white-space: nowrap;
+}
+
+.skills_list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.skills {
+    width: 478px;
+    margin: auto 0;
+}
+
+.video_border {
+    max-width: 970px;
+    border-radius: 29px;
+    background: var(--gray-2, linear-gradient(135deg, #414141 0%, #2D2D2D 100%));
+    box-shadow: 0px 4px 15px 0px rgba(27, 27, 27, 0.28);
+    width: 970px;
+    height: 600px;
+    margin: 70px auto 0;
+}
+
+.video_container {
+    max-width: 881px;
+    max-height: 511px;
+    margin: auto;
+}
+
+.video_content {
+    margin-top: 44px;
+    width: 881px;
+    height: 511px;
+    border-radius: 29px;
+}
+
+.video_title {
+    text-align: center;
+    color: #112102;
+    font-size: 48px;
+    font-family: 'Nico Moji';
+    margin-top: 0;
+}
+
+.video {
+    background: #446A12;
+    padding: 70px 0 134px 0;
+}
+
+.gallery_title {
+    color: #446A12;
+    font-size: 48px;
+    font-family: 'Nico Moji';
+    text-align: center;
+    margin: 0 0 70px 0;
+}
+
+.gallery {
+    background: #83BD1A;
+    padding: 70px 0 70px 0;
+}
+
+.gallery_list {
+    padding: 0;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    max-width: 1400px;
+    justify-content: space-between;
+}
+
+.gallery_item {
+    width: 32%;
+}
+
+.gallery_img {
+    width: 100%;
+    height: 356px;
+    margin-bottom: 22px;
+}
+.footer_item{
+    list-style: none;
+}
+.footer_list{
+    display: flex;
+    width: 243px; 
+    justify-content: space-between;
+}
+.footer_container{
+    display: flex;
+    justify-content: space-evenly;
+}
+.footer{
+    background: #112102;
+    padding: 50px 0 33px;
+}
+.footer_title{
+    color: #E4E4E4;
+    font-size: 30px;
+    font-family: 'Bebas Neue';
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.footer_text{
+    color: #FFF;
+     font-size: 18px;
+    font-family: 'Nico Moji';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 164.063%;
+}
